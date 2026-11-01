@@ -4,8 +4,8 @@ A full-stack student management app built for the **Full Stack Development Works
 React runs the interface, Node.js + Express serves a REST API, and all records live in a plain
 JavaScript array in server memory. No database is used.
 
-> **Author:** YOUR NAME · Roll No. YOUR ROLL NUMBER · B.Tech CSE
-> **Faculty:** Chandrahas Mishra
+> **Author:** AKSHAT SINGH · ROLL NO. 25000320100142 · B.Tech CSE
+
 
 ## What it does
 
@@ -29,8 +29,8 @@ JavaScript array in server memory. No database is used.
 ```
 student-management/
 ├── backend/
-│   ├── server.js                 # app setup, middleware, error handling
-│   ├── routes/studentRoutes.js   # CRUD routes, validation, in-memory array
+│   ├── server.js                
+│   ├── routes/studentRoutes.js   
 │   └── package.json
 ├── frontend/
 │   ├── index.html
@@ -38,9 +38,9 @@ student-management/
 │   ├── package.json
 │   └── src/
 │       ├── main.jsx
-│       ├── App.jsx               # state, data fetching, notifications
+│       ├── App.jsx              
 │       ├── App.css
-│       ├── api.js                # all Axios calls in one place
+│       ├── api.js               
 │       └── components/
 │           ├── StudentForm.jsx
 │           ├── StudentList.jsx
